@@ -1,0 +1,26 @@
+{
+  "group": "mysticalrealms",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "mysticalrealms:sapphire"
+    },
+    "2": {
+      "item": "mysticalrealms:sapphire"
+    },
+    "3": {
+      "item": "mysticalrealms:sapphire"
+    },
+    "5": {
+      "item": "mysticalrealms:sapphire"
+    }
+  },
+  "result": {
+    "item": "mysticalrealms:sapphire_armor_armor_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "mysticalrealms:items/sapphire_armor_head"
+  }
+}

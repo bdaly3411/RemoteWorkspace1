@@ -1,0 +1,113 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Sapphire",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire"
+    },
+    {
+      "name": "SapphireBlock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_block"
+    },
+    {
+      "name": "Sapphire_armorArmor",
+      "type": "armor",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_armor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Sapphire_armorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_armor_armor_helmet_recipe"
+    },
+    {
+      "name": "Sapphire_armorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_armor_armor_body_recipe"
+    },
+    {
+      "name": "Sapphire_armorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_armor_armor_leggings_recipe"
+    },
+    {
+      "name": "Sapphire_armorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_armor_armor_boots_recipe"
+    },
+    {
+      "name": "Sapphireore",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphireore"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.mysticalrealms.sapphire_block": "Sapphire Block",
+      "item.mysticalrealms.sapphire_armor_armor_helmet": "Sapphire_armor Helmet",
+      "item.mysticalrealms.sapphire_armor_armor_boots": "Sapphire_armor Boots",
+      "item.mysticalrealms.sapphire": "Sapphire",
+      "item.mysticalrealms.sapphire_armor_armor_chestplate": "Sapphire_armor Chestplate",
+      "item.mysticalrealms.sapphire_armor_armor_leggings": "Sapphire_armor Leggings",
+      "block.mysticalrealms.sapphireore": "Sapphireore"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "mysticalrealms",
+    "modName": "MysticalRealms",
+    "version": "1.0.0",
+    "author": "jpdal, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.mcreator.mysticalrealms",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000432115
+}
