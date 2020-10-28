@@ -1,14 +1,26 @@
 {
-  "item.mysticalrealms.sapphire_sword": "Sapphire Sword",
+  "item.mysticalrealms.ruby_axe": "Ruby Axe",
+  "item.mysticalrealms.ruby_gem": "Ruby",
+  "item.mysticalrealms.ruby_armor_helmet": "Ruby Helmet",
   "item.mysticalrealms.sapphire_armor_helmet": "Sapphire Helmet",
   "item.mysticalrealms.sapphire_gem": "Sapphire",
   "item.mysticalrealms.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.mysticalrealms.ruby_armor_chestplate": "Ruby Chestplate",
   "item.mysticalrealms.sapphire_axe": "Sapphire Axe",
+  "item.mysticalrealms.ruby_armor_boots": "Ruby Boots",
   "item.mysticalrealms.sapphire_armor_boots": "Sapphire Boots",
+  "block.mysticalrealms.ruby_ore_block": "Block of Ruby",
+  "item.mysticalrealms.sapphire_sword": "Sapphire Sword",
+  "item.mysticalrealms.ruby_pickaxe": "Ruby Pickaxe",
   "item.mysticalrealms.sapphire_armor_leggings": "Sapphire Leggings",
+  "item.mysticalrealms.ruby_hoe": "Ruby Hoe",
+  "block.mysticalrealms.ruby_ore": "Ruby Ore",
+  "item.mysticalrealms.ruby_sword": "Ruby Sword",
   "block.mysticalrealms.sapphire_ore_block": "Block of Sapphire",
   "block.mysticalrealms.sapphire_ore": "Sapphire Ore",
   "item.mysticalrealms.sapphire_hoe": "Sapphire Hoe",
   "item.mysticalrealms.sapphire_shovel": "Sapphire Shovel",
-  "item.mysticalrealms.sapphire_armor_chestplate": "Sapphire Chestplate"
+  "item.mysticalrealms.ruby_shovel": "Ruby Shovel",
+  "item.mysticalrealms.sapphire_armor_chestplate": "Sapphire Chestplate",
+  "item.mysticalrealms.ruby_armor_leggings": "Ruby Leggings"
 }

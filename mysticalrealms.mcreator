@@ -189,24 +189,225 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "sapphire_armor_boots_recipe"
+    },
+    {
+      "name": "RubyGem",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_gem"
+    },
+    {
+      "name": "RubyOre",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_ore"
+    },
+    {
+      "name": "RubyOreBlock",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_ore_block"
+    },
+    {
+      "name": "RubyOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_ore_block_recipe"
+    },
+    {
+      "name": "RubyBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_block_ore_recipe"
+    },
+    {
+      "name": "RubyOreSmelting",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_ore_smelting"
+    },
+    {
+      "name": "RubyPickaxe",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_pickaxe"
+    },
+    {
+      "name": "RubyAxe",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_axe"
+    },
+    {
+      "name": "RubySword",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_sword"
+    },
+    {
+      "name": "RubyShovel",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_shovel"
+    },
+    {
+      "name": "RubyHoe",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_hoe"
+    },
+    {
+      "name": "RubyPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_pickaxe_recipe"
+    },
+    {
+      "name": "RubyAxeRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_axe_recipe"
+    },
+    {
+      "name": "RubySwordRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_sword_recipe"
+    },
+    {
+      "name": "RubyShovelRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_shovel_recipe"
+    },
+    {
+      "name": "RubyHoeRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_hoe_recipe"
+    },
+    {
+      "name": "RubyArmor",
+      "type": "armor",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_armor"
+    },
+    {
+      "name": "RubyArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_armor_helmet_recipe"
+    },
+    {
+      "name": "RubyArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_armor_body_recipe"
+    },
+    {
+      "name": "RubyArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_armor_leggings_recipe"
+    },
+    {
+      "name": "RubyArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_armor_boots_recipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.mysticalrealms.sapphire_sword": "Sapphire Sword",
+      "item.mysticalrealms.ruby_axe": "Ruby Axe",
+      "item.mysticalrealms.ruby_gem": "Ruby",
+      "item.mysticalrealms.ruby_armor_helmet": "Ruby Helmet",
       "item.mysticalrealms.sapphire_armor_helmet": "Sapphire Helmet",
       "item.mysticalrealms.sapphire_gem": "Sapphire",
       "item.mysticalrealms.sapphire_pickaxe": "Sapphire Pickaxe",
+      "item.mysticalrealms.ruby_armor_chestplate": "Ruby Chestplate",
       "item.mysticalrealms.sapphire_axe": "Sapphire Axe",
+      "item.mysticalrealms.ruby_armor_boots": "Ruby Boots",
       "item.mysticalrealms.sapphire_armor_boots": "Sapphire Boots",
+      "block.mysticalrealms.ruby_ore_block": "Block of Ruby",
+      "item.mysticalrealms.sapphire_sword": "Sapphire Sword",
+      "item.mysticalrealms.ruby_pickaxe": "Ruby Pickaxe",
       "item.mysticalrealms.sapphire_armor_leggings": "Sapphire Leggings",
+      "item.mysticalrealms.ruby_hoe": "Ruby Hoe",
+      "block.mysticalrealms.ruby_ore": "Ruby Ore",
+      "item.mysticalrealms.ruby_sword": "Ruby Sword",
       "block.mysticalrealms.sapphire_ore_block": "Block of Sapphire",
       "block.mysticalrealms.sapphire_ore": "Sapphire Ore",
       "item.mysticalrealms.sapphire_hoe": "Sapphire Hoe",
       "item.mysticalrealms.sapphire_shovel": "Sapphire Shovel",
-      "item.mysticalrealms.sapphire_armor_chestplate": "Sapphire Chestplate"
+      "item.mysticalrealms.ruby_shovel": "Ruby Shovel",
+      "item.mysticalrealms.sapphire_armor_chestplate": "Sapphire Chestplate",
+      "item.mysticalrealms.ruby_armor_leggings": "Ruby Leggings"
     }
   },
   "workspaceSettings": {
