@@ -2,45 +2,51 @@
   "_fv": 10,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Crafting",
-    "xpReward": 0.0,
+    "recipeType": "Smelting",
+    "xpReward": 2.0999999999999996,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Sapphire"
-      },
-      {
-        "value": "CUSTOM:Sapphire"
-      },
-      {
-        "value": "CUSTOM:Sapphire"
-      },
-      {
-        "value": "CUSTOM:Sapphire"
+        "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Sapphire"
-      },
-      {
-        "value": "CUSTOM:Sapphire"
+        "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Sapphire"
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Sapphire_armorArmor.legs"
+      "value": ""
     },
-    "name": "sapphire_armor_armor_leggings_recipe",
+    "smeltingInputStack": {
+      "value": "CUSTOM:SapphireOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:SapphireGem"
+    },
+    "name": "sapphire_ore_smelting",
     "namespace": "mod"
   }
 }

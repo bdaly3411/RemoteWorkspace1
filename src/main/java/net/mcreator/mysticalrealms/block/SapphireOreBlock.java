@@ -4,6 +4,7 @@ package net.mcreator.mysticalrealms.block;
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.common.ToolType;
 
 import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.gen.placement.Placement;
@@ -14,7 +15,6 @@ import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.gen.ChunkGenerator;
 import net.minecraft.world.dimension.DimensionType;
 import net.minecraft.world.biome.Biome;
-import net.minecraft.world.IWorldReader;
 import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.item.ItemStack;
@@ -27,6 +27,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.mysticalrealms.item.SapphireGemItem;
 import net.mcreator.mysticalrealms.MysticalrealmsModElements;
 
 import java.util.Random;
@@ -34,11 +35,11 @@ import java.util.List;
 import java.util.Collections;
 
 @MysticalrealmsModElements.ModElement.Tag
-public class SapphireoreBlock extends MysticalrealmsModElements.ModElement {
-	@ObjectHolder("mysticalrealms:sapphireore")
+public class SapphireOreBlock extends MysticalrealmsModElements.ModElement {
+	@ObjectHolder("mysticalrealms:sapphire_ore")
 	public static final Block block = null;
-	public SapphireoreBlock(MysticalrealmsModElements instance) {
-		super(instance, 8);
+	public SapphireOreBlock(MysticalrealmsModElements instance) {
+		super(instance, 2);
 	}
 
 	@Override
@@ -49,13 +50,9 @@ public class SapphireoreBlock extends MysticalrealmsModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).lightValue(0));
-			setRegistryName("sapphireore");
-		}
-
-		@Override
-		public float[] getBeaconColorMultiplier(BlockState state, IWorldReader world, BlockPos pos, BlockPos beaconPos) {
-			return new float[]{0f, 0f, 0.4f};
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(9f, 12.041123426403463f).lightValue(0)
+					.harvestLevel(6).harvestTool(ToolType.PICKAXE));
+			setRegistryName("sapphire_ore");
 		}
 
 		@Override
@@ -63,7 +60,7 @@ public class SapphireoreBlock extends MysticalrealmsModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(SapphireGemItem.block, (int) (1)));
 		}
 	}
 	@Override
@@ -80,12 +77,12 @@ public class SapphireoreBlock extends MysticalrealmsModElements.ModElement {
 						return false;
 					return super.place(world, generator, rand, pos, config);
 				}
-			}.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("sapphireore", "sapphireore", blockAt -> {
+			}.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("sapphire_ore", "sapphire_ore", blockAt -> {
 				boolean blockCriteria = false;
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 3)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(6, 0, 0, 30))));
+			}), block.getDefaultState(), 2)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(4, 1, 1, 23))));
 		}
 	}
 }

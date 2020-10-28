@@ -2,6 +2,7 @@
 package net.mcreator.mysticalrealms.block;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.common.ToolType;
 
 import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.item.ItemStack;
@@ -19,11 +20,11 @@ import java.util.List;
 import java.util.Collections;
 
 @MysticalrealmsModElements.ModElement.Tag
-public class SapphireBlockBlock extends MysticalrealmsModElements.ModElement {
-	@ObjectHolder("mysticalrealms:sapphire_block")
+public class SapphireOreBlockBlock extends MysticalrealmsModElements.ModElement {
+	@ObjectHolder("mysticalrealms:sapphire_ore_block")
 	public static final Block block = null;
-	public SapphireBlockBlock(MysticalrealmsModElements instance) {
-		super(instance, 2);
+	public SapphireOreBlockBlock(MysticalrealmsModElements instance) {
+		super(instance, 3);
 	}
 
 	@Override
@@ -34,8 +35,9 @@ public class SapphireBlockBlock extends MysticalrealmsModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(10f, 10f).lightValue(0));
-			setRegistryName("sapphire_block");
+			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(5f, 10f).lightValue(0).harvestLevel(6)
+					.harvestTool(ToolType.PICKAXE));
+			setRegistryName("sapphire_ore_block");
 		}
 
 		@Override

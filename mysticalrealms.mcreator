@@ -2,95 +2,67 @@
   "id_map": {},
   "mod_elements": [
     {
-      "name": "Sapphire",
+      "name": "SapphireGem",
       "type": "item",
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "sapphire"
+      "registry_name": "sapphire_gem"
     },
     {
-      "name": "SapphireBlock",
+      "name": "SapphireOre",
       "type": "block",
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "sapphire_block"
+      "registry_name": "sapphire_ore"
     },
     {
-      "name": "Sapphire_armorArmor",
-      "type": "armor",
+      "name": "SapphireOreBlock",
+      "type": "block",
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "sapphire_armor_armor",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      }
+      "registry_name": "sapphire_ore_block"
     },
     {
-      "name": "Sapphire_armorArmorHelmetRecipe",
+      "name": "SapphireOreBlockRecipe",
       "type": "recipe",
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "sapphire_armor_armor_helmet_recipe"
+      "registry_name": "sapphire_ore_block_recipe"
     },
     {
-      "name": "Sapphire_armorArmorBodyRecipe",
+      "name": "SapphireBlockOreRecipe",
       "type": "recipe",
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "sapphire_armor_armor_body_recipe"
+      "registry_name": "sapphire_block_ore_recipe"
     },
     {
-      "name": "Sapphire_armorArmorLeggingsRecipe",
+      "name": "SapphireOreSmelting",
       "type": "recipe",
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "sapphire_armor_armor_leggings_recipe"
-    },
-    {
-      "name": "Sapphire_armorArmorBootsRecipe",
-      "type": "recipe",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sapphire_armor_armor_boots_recipe"
-    },
-    {
-      "name": "Sapphireore",
-      "type": "block",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sapphireore"
+      "registry_name": "sapphire_ore_smelting"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.mysticalrealms.sapphire_block": "Sapphire Block",
-      "item.mysticalrealms.sapphire_armor_armor_helmet": "Sapphire_armor Helmet",
-      "item.mysticalrealms.sapphire_armor_armor_boots": "Sapphire_armor Boots",
-      "item.mysticalrealms.sapphire": "Sapphire",
-      "item.mysticalrealms.sapphire_armor_armor_chestplate": "Sapphire_armor Chestplate",
-      "item.mysticalrealms.sapphire_armor_armor_leggings": "Sapphire_armor Leggings",
-      "block.mysticalrealms.sapphireore": "Sapphireore"
+      "block.mysticalrealms.sapphire_ore_block": "Block of Sapphire",
+      "block.mysticalrealms.sapphire_ore": "Sapphire Ore",
+      "item.mysticalrealms.sapphire_gem": "Sapphire"
     }
   },
   "workspaceSettings": {

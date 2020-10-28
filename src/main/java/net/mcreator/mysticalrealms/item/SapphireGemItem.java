@@ -11,10 +11,10 @@ import net.minecraft.block.BlockState;
 import net.mcreator.mysticalrealms.MysticalrealmsModElements;
 
 @MysticalrealmsModElements.ModElement.Tag
-public class SapphireItem extends MysticalrealmsModElements.ModElement {
-	@ObjectHolder("mysticalrealms:sapphire")
+public class SapphireGemItem extends MysticalrealmsModElements.ModElement {
+	@ObjectHolder("mysticalrealms:sapphire_gem")
 	public static final Item block = null;
-	public SapphireItem(MysticalrealmsModElements instance) {
+	public SapphireGemItem(MysticalrealmsModElements instance) {
 		super(instance, 1);
 	}
 
@@ -25,7 +25,7 @@ public class SapphireItem extends MysticalrealmsModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64));
-			setRegistryName("sapphire");
+			setRegistryName("sapphire_gem");
 		}
 
 		@Override

@@ -1,5 +1,5 @@
 {
-  "parent": "mysticalrealms:block/sapphireore",
+  "parent": "mysticalrealms:block/sapphire_ore",
   "display": {
     "thirdperson": {
       "rotation": [

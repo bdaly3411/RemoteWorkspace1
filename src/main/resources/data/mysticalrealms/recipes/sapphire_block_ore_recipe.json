@@ -1,0 +1,13 @@
+{
+  "group": "mysticalrealms",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mysticalrealms:sapphire_ore_block"
+    }
+  ],
+  "result": {
+    "item": "mysticalrealms:sapphire_gem",
+    "count": 9
+  }
+}
