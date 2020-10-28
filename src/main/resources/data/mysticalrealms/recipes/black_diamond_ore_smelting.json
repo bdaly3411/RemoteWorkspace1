@@ -1,0 +1,12 @@
+{
+  "group": "mysticalrealms",
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "mysticalrealms:black_diamond_ore"
+  },
+  "result": {
+    "item": "mysticalrealms:black_diamond_gem"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "group": "mysticalrealms",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "mysticalrealms:black_diamond_gem"
+    },
+    "1": {
+      "item": "mysticalrealms:black_diamond_gem"
+    },
+    "2": {
+      "item": "mysticalrealms:black_diamond_gem"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mysticalrealms:black_diamond_axe",
+    "count": 1
+  }
+}
