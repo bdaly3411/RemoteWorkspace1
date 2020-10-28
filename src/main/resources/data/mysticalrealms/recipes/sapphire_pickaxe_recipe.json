@@ -1,0 +1,30 @@
+{
+  "group": "mysticalrealms",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "mysticalrealms:sapphire_gem"
+    },
+    "1": {
+      "item": "mysticalrealms:sapphire_gem"
+    },
+    "2": {
+      "item": "mysticalrealms:sapphire_gem"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mysticalrealms:sapphire_pickaxe",
+    "count": 1
+  }
+}

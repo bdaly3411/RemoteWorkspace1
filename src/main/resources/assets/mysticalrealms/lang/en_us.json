@@ -1,5 +1,14 @@
 {
+  "item.mysticalrealms.sapphire_sword": "Sapphire Sword",
+  "item.mysticalrealms.sapphire_armor_helmet": "Sapphire Helmet",
+  "item.mysticalrealms.sapphire_gem": "Sapphire",
+  "item.mysticalrealms.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.mysticalrealms.sapphire_axe": "Sapphire Axe",
+  "item.mysticalrealms.sapphire_armor_boots": "Sapphire Boots",
+  "item.mysticalrealms.sapphire_armor_leggings": "Sapphire Leggings",
   "block.mysticalrealms.sapphire_ore_block": "Block of Sapphire",
   "block.mysticalrealms.sapphire_ore": "Sapphire Ore",
-  "item.mysticalrealms.sapphire_gem": "Sapphire"
+  "item.mysticalrealms.sapphire_hoe": "Sapphire Hoe",
+  "item.mysticalrealms.sapphire_shovel": "Sapphire Shovel",
+  "item.mysticalrealms.sapphire_armor_chestplate": "Sapphire Chestplate"
 }

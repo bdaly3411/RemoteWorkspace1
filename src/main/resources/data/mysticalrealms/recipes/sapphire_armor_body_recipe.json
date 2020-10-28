@@ -1,0 +1,39 @@
+{
+  "group": "mysticalrealms",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mysticalrealms:sapphire_gem"
+    },
+    "2": {
+      "item": "mysticalrealms:sapphire_gem"
+    },
+    "3": {
+      "item": "mysticalrealms:sapphire_gem"
+    },
+    "4": {
+      "item": "mysticalrealms:sapphire_gem"
+    },
+    "5": {
+      "item": "mysticalrealms:sapphire_gem"
+    },
+    "6": {
+      "item": "mysticalrealms:sapphire_gem"
+    },
+    "7": {
+      "item": "mysticalrealms:sapphire_gem"
+    },
+    "8": {
+      "item": "mysticalrealms:sapphire_gem"
+    }
+  },
+  "result": {
+    "item": "mysticalrealms:sapphire_armor_chestplate",
+    "count": 1
+  }
+}
