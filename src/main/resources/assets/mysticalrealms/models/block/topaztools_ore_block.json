@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mysticalrealms:blocks/topazblock",
+    "particle": "mysticalrealms:blocks/topazblock"
+  }
+}

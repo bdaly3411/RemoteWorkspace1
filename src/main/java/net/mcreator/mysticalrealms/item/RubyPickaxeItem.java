@@ -27,7 +27,7 @@ public class RubyPickaxeItem extends MysticalrealmsModElements.ModElement {
 			}
 
 			public float getEfficiency() {
-				return 12f;
+				return 3f;
 			}
 
 			public float getAttackDamage() {

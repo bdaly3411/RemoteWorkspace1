@@ -1,0 +1,29 @@
+{
+  "group": "mysticalrealms",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "mysticalrealms:topaztools_gem"
+    },
+    "1": {
+      "item": "mysticalrealms:topaztools_gem"
+    },
+    "2": {
+      "item": "mysticalrealms:topaztools_gem"
+    },
+    "3": {
+      "item": "mysticalrealms:topaztools_gem"
+    },
+    "5": {
+      "item": "mysticalrealms:topaztools_gem"
+    }
+  },
+  "result": {
+    "item": "mysticalrealms:topaztools_armor_helmet",
+    "count": 1
+  }
+}

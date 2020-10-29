@@ -27,7 +27,7 @@ public class SapphirePickaxeItem extends MysticalrealmsModElements.ModElement {
 			}
 
 			public float getEfficiency() {
-				return 12f;
+				return 2f;
 			}
 
 			public float getAttackDamage() {

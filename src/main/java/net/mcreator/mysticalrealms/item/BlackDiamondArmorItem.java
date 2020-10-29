@@ -61,7 +61,7 @@ public class BlackDiamondArmorItem extends MysticalrealmsModElements.ModElement 
 			}
 
 			public float getToughness() {
-				return 0f;
+				return 4f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)) {
