@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mysticalrealms:blocks/opal_1",
+    "particle": "mysticalrealms:blocks/opal_1"
+  }
+}

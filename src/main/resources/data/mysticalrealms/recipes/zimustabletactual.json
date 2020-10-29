@@ -1,0 +1,42 @@
+{
+  "group": "mysticalrealms",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:black_stained_glass"
+    },
+    "1": {
+      "item": "minecraft:cake"
+    },
+    "2": {
+      "item": "minecraft:black_stained_glass"
+    },
+    "3": {
+      "item": "mysticalrealms:black_diamond_gem"
+    },
+    "4": {
+      "item": "mysticalrealms:zimus_tablet"
+    },
+    "5": {
+      "item": "mysticalrealms:black_diamond_gem"
+    },
+    "6": {
+      "item": "minecraft:black_stained_glass"
+    },
+    "7": {
+      "item": "mysticalrealms:sapphire_gem"
+    },
+    "8": {
+      "item": "minecraft:black_stained_glass"
+    }
+  },
+  "result": {
+    "item": "mysticalrealms:zimus",
+    "count": 1
+  }
+}

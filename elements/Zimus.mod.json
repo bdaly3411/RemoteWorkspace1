@@ -16,7 +16,7 @@
     "igniterTab": {
       "value": "TOOLS"
     },
-    "texture": "zimusigniteexture",
+    "texture": "zimustablet",
     "portalTexture": "zimusportaltex",
     "enablePortal": true,
     "biomesInDimension": [

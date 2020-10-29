@@ -1,0 +1,29 @@
+{
+  "group": "mysticalrealms",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "mysticalrealms:opal_gem"
+    },
+    "1": {
+      "item": "mysticalrealms:opal_gem"
+    },
+    "2": {
+      "item": "mysticalrealms:opal_gem"
+    },
+    "3": {
+      "item": "mysticalrealms:opal_gem"
+    },
+    "5": {
+      "item": "mysticalrealms:opal_gem"
+    }
+  },
+  "result": {
+    "item": "mysticalrealms:opal_armor_helmet",
+    "count": 1
+  }
+}

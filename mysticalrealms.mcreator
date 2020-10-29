@@ -801,6 +801,228 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "zimus"
+    },
+    {
+      "name": "ZimusTablet",
+      "type": "item",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zimus_tablet"
+    },
+    {
+      "name": "OpalGem",
+      "type": "item",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opal_gem"
+    },
+    {
+      "name": "OpalOre",
+      "type": "block",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opal_ore"
+    },
+    {
+      "name": "OpalOreBlock",
+      "type": "block",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opal_ore_block"
+    },
+    {
+      "name": "OpalOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opal_ore_block_recipe"
+    },
+    {
+      "name": "OpalBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opal_block_ore_recipe"
+    },
+    {
+      "name": "OpalOreSmelting",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opal_ore_smelting"
+    },
+    {
+      "name": "OpalPickaxe",
+      "type": "tool",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opal_pickaxe"
+    },
+    {
+      "name": "OpalAxe",
+      "type": "tool",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opal_axe"
+    },
+    {
+      "name": "OpalSword",
+      "type": "tool",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opal_sword"
+    },
+    {
+      "name": "OpalShovel",
+      "type": "tool",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opal_shovel"
+    },
+    {
+      "name": "OpalHoe",
+      "type": "tool",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opal_hoe"
+    },
+    {
+      "name": "OpalPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opal_pickaxe_recipe"
+    },
+    {
+      "name": "OpalAxeRecipe",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opal_axe_recipe"
+    },
+    {
+      "name": "OpalSwordRecipe",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opal_sword_recipe"
+    },
+    {
+      "name": "OpalShovelRecipe",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opal_shovel_recipe"
+    },
+    {
+      "name": "OpalHoeRecipe",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opal_hoe_recipe"
+    },
+    {
+      "name": "OpalArmor",
+      "type": "armor",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opal_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "OpalArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opal_armor_helmet_recipe"
+    },
+    {
+      "name": "OpalArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opal_armor_body_recipe"
+    },
+    {
+      "name": "OpalArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opal_armor_leggings_recipe"
+    },
+    {
+      "name": "OpalArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "opal_armor_boots_recipe"
+    },
+    {
+      "name": "ZimusPeice",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zimus_peice"
+    },
+    {
+      "name": "Zimustabletactual",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zimustabletactual"
     }
   ],
   "variable_elements": [],
@@ -808,6 +1030,7 @@
   "language_map": {
     "en_us": {
       "item.mysticalrealms.ruby_axe": "Ruby Axe",
+      "item.mysticalrealms.opal_axe": "Opal Axe",
       "item.mysticalrealms.ruby_armor_helmet": "Ruby Helmet",
       "item.mysticalrealms.black_diamond_hoe": "BlackDiamond Hoe",
       "item.mysticalrealms.black_diamond_armor_boots": "BlackDiamond Boots",
@@ -818,10 +1041,16 @@
       "block.mysticalrealms.ruby_ore_block": "Block of Ruby",
       "item.mysticalrealms.topaztools_gem": "Topaztools",
       "item.mysticalrealms.black_diamond_armor_helmet": "BlackDiamond Helmet",
+      "item.mysticalrealms.opal_armor_boots": "Opal Boots",
       "item.mysticalrealms.topaztools_hoe": "Topaztools Hoe",
+      "block.mysticalrealms.opal_ore": "Opal Ore",
       "block.mysticalrealms.topaztools_ore": "Topaztools Ore",
       "item.mysticalrealms.sapphire_sword": "Sapphire Sword",
       "item.mysticalrealms.black_diamond_armor_chestplate": "BlackDiamond Chestplate",
+      "item.mysticalrealms.zimus_tablet": "Zimus Tablet",
+      "item.mysticalrealms.opal_armor_leggings": "Opal Leggings",
+      "item.mysticalrealms.opal_sword": "Opal Sword",
+      "item.mysticalrealms.opal_armor_chestplate": "Opal Chestplate",
       "item.mysticalrealms.topaztools_shovel": "Topaztools Shovel",
       "item.mysticalrealms.sapphire_armor_leggings": "Sapphire Leggings",
       "item.mysticalrealms.sapphire_hoe": "Sapphire Hoe",
@@ -831,8 +1060,11 @@
       "block.mysticalrealms.topaztools_ore_block": "Block of Topaztools",
       "item.mysticalrealms.ruby_shovel": "Ruby Shovel",
       "item.mysticalrealms.ruby_armor_leggings": "Ruby Leggings",
+      "item.mysticalrealms.opal_shovel": "Opal Shovel",
       "item.mysticalrealms.black_diamond_pickaxe": "BlackDiamond Pickaxe",
       "item.mysticalrealms.ruby_gem": "Ruby",
+      "item.mysticalrealms.opal_gem": "Opal",
+      "item.mysticalrealms.opal_armor_helmet": "Opal Helmet",
       "item.mysticalrealms.sapphire_armor_helmet": "Sapphire Helmet",
       "item.mysticalrealms.topaztools_armor_leggings": "Topaztools Leggings",
       "item.mysticalrealms.sapphire_gem": "Sapphire",
@@ -840,10 +1072,13 @@
       "item.mysticalrealms.topaztools_sword": "Topaztools Sword",
       "item.mysticalrealms.topaztools_armor_chestplate": "Topaztools Chestplate",
       "item.mysticalrealms.topaztools_axe": "Topaztools Axe",
+      "item.mysticalrealms.opal_hoe": "Opal Hoe",
       "block.mysticalrealms.portalframezimus": "Portalframezimus",
       "item.mysticalrealms.black_diamond_shovel": "BlackDiamond Shovel",
+      "item.mysticalrealms.opal_pickaxe": "Opal Pickaxe",
       "item.mysticalrealms.ruby_pickaxe": "Ruby Pickaxe",
       "item.mysticalrealms.black_diamond_armor_leggings": "BlackDiamond Leggings",
+      "block.mysticalrealms.opal_ore_block": "Block of Opal",
       "block.mysticalrealms.black_diamond_ore_block": "Block of BlackDiamond",
       "item.mysticalrealms.ruby_hoe": "Ruby Hoe",
       "item.mysticalrealms.topaztools_armor_helmet": "Topaztools Helmet",

@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:OpalGem"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:OpalGem"
+      },
+      {
+        "value": "CUSTOM:OpalGem"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:OpalGem"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:OpalArmor.boots"
+    },
+    "name": "opal_armor_boots_recipe",
+    "namespace": "mod"
+  }
+}

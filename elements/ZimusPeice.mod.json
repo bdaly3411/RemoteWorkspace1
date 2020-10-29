@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SapphireGem"
+      },
+      {
+        "value": "CUSTOM:RubyGem"
+      },
+      {
+        "value": "CUSTOM:SapphireGem"
+      },
+      {
+        "value": "CUSTOM:RubyGem"
+      },
+      {
+        "value": "CUSTOM:OpalGem"
+      },
+      {
+        "value": "CUSTOM:RubyGem"
+      },
+      {
+        "value": "CUSTOM:SapphireGem"
+      },
+      {
+        "value": "CUSTOM:RubyGem"
+      },
+      {
+        "value": "CUSTOM:SapphireGem"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ZimusTablet"
+    },
+    "name": "zimus_peice",
+    "namespace": "mod"
+  }
+}
