@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mysticalrealms:blocks/aluminium_ore",
+    "up": "mysticalrealms:blocks/aluminium_ore",
+    "north": "mysticalrealms:blocks/aluminium_ore",
+    "east": "mysticalrealms:blocks/aluminium_ore",
+    "south": "mysticalrealms:blocks/aluminium_ore",
+    "west": "mysticalrealms:blocks/aluminium_ore",
+    "particle": "mysticalrealms:blocks/aluminium_ore"
+  }
+}

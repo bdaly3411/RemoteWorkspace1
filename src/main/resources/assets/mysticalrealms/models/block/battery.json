@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mysticalrealms:blocks/batteryout",
+    "up": "mysticalrealms:blocks/batter",
+    "north": "mysticalrealms:blocks/batteryout",
+    "east": "mysticalrealms:blocks/batteryout",
+    "south": "mysticalrealms:blocks/batteryout",
+    "west": "mysticalrealms:blocks/batteryout",
+    "particle": "mysticalrealms:blocks/batteryout"
+  }
+}

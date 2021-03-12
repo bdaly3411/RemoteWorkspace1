@@ -1,18 +1,19 @@
 modLoader="javafml"
-loaderVersion="[31,)"
+loaderVersion="[35,)"
+license="Not specified"
 
 [[mods]]
 modId="mysticalrealms"
 version="1.0.0"
-displayName="MysticalRealms"
+displayName="EverythingAndMore"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="jpdal, MCreator"
+authors="Minty"
 
 [[dependencies.mysticalrealms]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.15.2]"
+    versionRange="[1.16.4]"
     ordering="NONE"
     side="BOTH"
 

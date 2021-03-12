@@ -1,0 +1,46 @@
+{
+  "_fv": 15,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "CUSTOM:TungstenIngot"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "CUSTOM:TungstenIngot"
+      },
+      {
+        "value": "CUSTOM:AluminiumIngot"
+      },
+      {
+        "value": "CUSTOM:TungstenIngot"
+      },
+      {
+        "value": "CUSTOM:ZincDust"
+      },
+      {
+        "value": "Blocks.PISTON"
+      },
+      {
+        "value": "CUSTOM:ZincDust"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SimpleMachineCasing"
+    },
+    "name": "simple_machine_casing_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "group": "mysticalrealms",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mysticalrealms:cherry_planks"
+    },
+    "3": {
+      "item": "mysticalrealms:cherry_planks"
+    },
+    "4": {
+      "item": "mysticalrealms:cherry_planks"
+    },
+    "6": {
+      "item": "mysticalrealms:cherry_planks"
+    },
+    "7": {
+      "item": "mysticalrealms:cherry_planks"
+    },
+    "8": {
+      "item": "mysticalrealms:cherry_planks"
+    }
+  },
+  "result": {
+    "item": "mysticalrealms:cherry_stairs",
+    "count": 4
+  }
+}

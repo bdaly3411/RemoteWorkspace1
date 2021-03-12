@@ -1,0 +1,13 @@
+{
+  "group": "mysticalrealms",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:cherry_log"
+    }
+  ],
+  "result": {
+    "item": "mysticalrealms:cherry_planks",
+    "count": 4
+  }
+}

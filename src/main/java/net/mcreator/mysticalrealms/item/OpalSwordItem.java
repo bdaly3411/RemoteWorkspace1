@@ -31,7 +31,7 @@ public class OpalSwordItem extends MysticalrealmsModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 8f;
+				return 18f;
 			}
 
 			public int getHarvestLevel() {

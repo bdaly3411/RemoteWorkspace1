@@ -1,0 +1,8 @@
+{
+  "parent": "mysticalrealms:custom/steel_press",
+  "textures": {
+    "all": "mysticalrealms:blocks/iuuh",
+    "particle": "mysticalrealms:blocks/iuuh",
+    "0": "mysticalrealms:blocks/iuuh"
+  }
+}

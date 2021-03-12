@@ -1,0 +1,8 @@
+{
+  "parent": "mysticalrealms:custom/solarpanel",
+  "textures": {
+    "all": "mysticalrealms:blocks/solarpanel",
+    "particle": "mysticalrealms:blocks/solarpanel",
+    "0": "mysticalrealms:blocks/solarpanel"
+  }
+}

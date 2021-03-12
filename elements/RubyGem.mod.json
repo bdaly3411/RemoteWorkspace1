@@ -1,11 +1,12 @@
 {
-  "_fv": 10,
+  "_fv": 15,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "ruby",
     "customModelName": "Normal",
     "name": "Ruby",
+    "rarity": "COMMON",
     "creativeTab": {
       "value": "MISC"
     },
@@ -15,6 +16,7 @@
     "toolType": 1.0,
     "damageCount": 0,
     "destroyAnyBlock": false,
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,

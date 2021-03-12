@@ -1,0 +1,11 @@
+{
+  "_fv": 15,
+  "_type": "tab",
+  "definition": {
+    "name": "Food",
+    "icon": {
+      "value": "Items.COOKED_PORKCHOP"
+    },
+    "showSearch": true
+  }
+}

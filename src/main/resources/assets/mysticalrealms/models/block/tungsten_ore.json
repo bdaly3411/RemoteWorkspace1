@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mysticalrealms:blocks/tungstenore",
+    "up": "mysticalrealms:blocks/tungstenore",
+    "north": "mysticalrealms:blocks/tungstenore",
+    "east": "mysticalrealms:blocks/tungstenore",
+    "south": "mysticalrealms:blocks/tungstenore",
+    "west": "mysticalrealms:blocks/tungstenore",
+    "particle": "mysticalrealms:blocks/tungstenore"
+  }
+}

@@ -35,33 +35,45 @@ public class BlackDiamondArmorItem extends MysticalrealmsModElements.ModElement 
 	@Override
 	public void initElements() {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
+			@Override
 			public int getDurability(EquipmentSlotType slot) {
 				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 15;
 			}
 
+			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
 				return new int[]{2, 6, 5, 2}[slot.getIndex()];
 			}
 
+			@Override
 			public int getEnchantability() {
 				return 9;
 			}
 
+			@Override
 			public net.minecraft.util.SoundEvent getSoundEvent() {
 				return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation(""));
 			}
 
+			@Override
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
 
 			@OnlyIn(Dist.CLIENT)
+			@Override
 			public String getName() {
 				return "black_diamond_armor";
 			}
 
+			@Override
 			public float getToughness() {
 				return 4f;
+			}
+
+			@Override
+			public float getKnockbackResistance() {
+				return 0f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)) {

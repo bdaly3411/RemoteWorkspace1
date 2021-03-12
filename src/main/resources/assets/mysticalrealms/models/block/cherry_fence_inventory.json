@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "mysticalrealms:blocks/cherry_planks",
+    "particle": "mysticalrealms:blocks/cherry_planks"
+  }
+}

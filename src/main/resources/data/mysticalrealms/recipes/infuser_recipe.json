@@ -1,0 +1,42 @@
+{
+  "group": "mysticalrealms",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mysticalrealms:iron_gear"
+    },
+    "1": {
+      "item": "minecraft:furnace"
+    },
+    "2": {
+      "item": "mysticalrealms:iron_gear"
+    },
+    "3": {
+      "item": "minecraft:lava_bucket"
+    },
+    "4": {
+      "item": "mysticalrealms:simple_machine_casing"
+    },
+    "5": {
+      "item": "minecraft:water_bucket"
+    },
+    "6": {
+      "item": "mysticalrealms:iron_gear"
+    },
+    "7": {
+      "item": "minecraft:furnace"
+    },
+    "8": {
+      "item": "mysticalrealms:iron_gear"
+    }
+  },
+  "result": {
+    "item": "mysticalrealms:infuser",
+    "count": 1
+  }
+}

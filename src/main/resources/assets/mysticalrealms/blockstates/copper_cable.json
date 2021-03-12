@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mysticalrealms:block/copper_cable"
+    },
+    "facing=east": {
+      "model": "mysticalrealms:block/copper_cable",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mysticalrealms:block/copper_cable",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mysticalrealms:block/copper_cable",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "mysticalrealms:block/copper_cable",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "mysticalrealms:block/copper_cable",
+      "x": 90
+    }
+  }
+}

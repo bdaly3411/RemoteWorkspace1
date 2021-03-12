@@ -1,0 +1,11 @@
+{
+  "_fv": 15,
+  "_type": "tab",
+  "definition": {
+    "name": "Machines",
+    "icon": {
+      "value": "CUSTOM:Crusher"
+    },
+    "showSearch": true
+  }
+}

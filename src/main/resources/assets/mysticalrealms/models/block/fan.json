@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mysticalrealms:blocks/sidecrystalizer",
+    "up": "mysticalrealms:blocks/sidecrystalizer",
+    "north": "mysticalrealms:blocks/frontoffcyrstalizer",
+    "east": "mysticalrealms:blocks/sidecrystalizer",
+    "south": "mysticalrealms:blocks/sidecrystalizer",
+    "west": "mysticalrealms:blocks/sidecrystalizer",
+    "particle": "mysticalrealms:blocks/sidecrystalizer"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "_fv": 15,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:CherryWood"
+      },
+      {
+        "value": "CUSTOM:CherryLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "name": "cherry_log",
+    "namespace": "forge"
+  }
+}

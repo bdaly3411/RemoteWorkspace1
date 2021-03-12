@@ -1,0 +1,42 @@
+{
+  "group": "mysticalrealms",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mysticalrealms:aluminium_frame"
+    },
+    "1": {
+      "item": "mysticalrealms:silicon_ingot"
+    },
+    "2": {
+      "item": "mysticalrealms:aluminium_frame"
+    },
+    "3": {
+      "item": "mysticalrealms:wafer"
+    },
+    "4": {
+      "item": "mysticalrealms:tempered_glass"
+    },
+    "5": {
+      "item": "mysticalrealms:wafer"
+    },
+    "6": {
+      "item": "mysticalrealms:aluminium_frame"
+    },
+    "7": {
+      "item": "mysticalrealms:silicon_ingot"
+    },
+    "8": {
+      "item": "mysticalrealms:aluminium_frame"
+    }
+  },
+  "result": {
+    "item": "mysticalrealms:solarpanel",
+    "count": 1
+  }
+}

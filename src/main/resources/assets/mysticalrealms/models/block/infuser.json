@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mysticalrealms:blocks/sidefurnaceting",
+    "up": "mysticalrealms:blocks/sidefurnaceting",
+    "north": "mysticalrealms:blocks/infuserfront",
+    "east": "mysticalrealms:blocks/sidefurnaceting",
+    "south": "mysticalrealms:blocks/sidefurnaceting",
+    "west": "mysticalrealms:blocks/sidefurnaceting",
+    "particle": "mysticalrealms:blocks/sidefurnaceting"
+  }
+}

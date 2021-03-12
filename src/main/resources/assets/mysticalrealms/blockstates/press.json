@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mysticalrealms:block/press"
+    },
+    "facing=east": {
+      "model": "mysticalrealms:block/press",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mysticalrealms:block/press",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mysticalrealms:block/press",
+      "y": 270
+    }
+  }
+}

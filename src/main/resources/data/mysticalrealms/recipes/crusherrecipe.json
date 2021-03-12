@@ -1,0 +1,42 @@
+{
+  "group": "mysticalrealms",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mysticalrealms:processing_unit"
+    },
+    "1": {
+      "item": "mysticalrealms:steel_plate"
+    },
+    "2": {
+      "item": "mysticalrealms:black_diamond_gem"
+    },
+    "3": {
+      "item": "mysticalrealms:steel_plate"
+    },
+    "4": {
+      "item": "mysticalrealms:press"
+    },
+    "5": {
+      "item": "mysticalrealms:steel_plate"
+    },
+    "6": {
+      "item": "mysticalrealms:ruby_gem"
+    },
+    "7": {
+      "item": "mysticalrealms:steel_plate"
+    },
+    "8": {
+      "item": "mysticalrealms:processing_unit"
+    }
+  },
+  "result": {
+    "item": "mysticalrealms:crusher",
+    "count": 1
+  }
+}

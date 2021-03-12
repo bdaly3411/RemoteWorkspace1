@@ -17,6 +17,9 @@
  */
 package net.mcreator.mysticalrealms;
 
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+
 import net.minecraftforge.fml.network.simple.SimpleChannel;
 import net.minecraftforge.fml.network.NetworkRegistry;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -27,10 +30,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.biome.Biome;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraft.entity.EntityType;
@@ -41,28 +41,23 @@ import java.util.function.Supplier;
 
 @Mod("mysticalrealms")
 public class MysticalrealmsMod {
+	public static final Logger LOGGER = LogManager.getLogger(MysticalrealmsMod.class);
 	private static final String PROTOCOL_VERSION = "1";
 	public static final SimpleChannel PACKET_HANDLER = NetworkRegistry.newSimpleChannel(new ResourceLocation("mysticalrealms", "mysticalrealms"),
 			() -> PROTOCOL_VERSION, PROTOCOL_VERSION::equals, PROTOCOL_VERSION::equals);
 	public MysticalrealmsModElements elements;
 	public MysticalrealmsMod() {
 		elements = new MysticalrealmsModElements();
-		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::init);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
-		MinecraftForge.EVENT_BUS.register(this);
+		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::init);
+		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::clientLoad);
+		MinecraftForge.EVENT_BUS.register(new MysticalrealmsModFMLBusEvents(this));
 	}
 
 	private void init(FMLCommonSetupEvent event) {
 		elements.getElements().forEach(element -> element.init(event));
 	}
 
-	@SubscribeEvent
-	public void serverLoad(FMLServerStartingEvent event) {
-		elements.getElements().forEach(element -> element.serverLoad(event));
-	}
-
-	@SubscribeEvent
-	@OnlyIn(Dist.CLIENT)
 	public void clientLoad(FMLClientSetupEvent event) {
 		elements.getElements().forEach(element -> element.clientLoad(event));
 	}
@@ -78,11 +73,6 @@ public class MysticalrealmsMod {
 	}
 
 	@SubscribeEvent
-	public void registerBiomes(RegistryEvent.Register<Biome> event) {
-		event.getRegistry().registerAll(elements.getBiomes().stream().map(Supplier::get).toArray(Biome[]::new));
-	}
-
-	@SubscribeEvent
 	public void registerEntities(RegistryEvent.Register<EntityType<?>> event) {
 		event.getRegistry().registerAll(elements.getEntities().stream().map(Supplier::get).toArray(EntityType[]::new));
 	}
@@ -95,5 +85,16 @@ public class MysticalrealmsMod {
 	@SubscribeEvent
 	public void registerSounds(RegistryEvent.Register<net.minecraft.util.SoundEvent> event) {
 		elements.registerSounds(event);
+	}
+	private static class MysticalrealmsModFMLBusEvents {
+		private final MysticalrealmsMod parent;
+		MysticalrealmsModFMLBusEvents(MysticalrealmsMod parent) {
+			this.parent = parent;
+		}
+
+		@SubscribeEvent
+		public void serverLoad(FMLServerStartingEvent event) {
+			this.parent.elements.getElements().forEach(element -> element.serverLoad(event));
+		}
 	}
 }

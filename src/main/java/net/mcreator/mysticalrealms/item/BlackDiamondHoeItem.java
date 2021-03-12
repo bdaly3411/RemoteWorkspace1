@@ -45,7 +45,7 @@ public class BlackDiamondHoeItem extends MysticalrealmsModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 0, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
 		}.setRegistryName("black_diamond_hoe"));
 	}
 }

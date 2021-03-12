@@ -1,1 +1,52 @@
-{}
+{
+  "press": {
+    "category": "block",
+    "subtitle": "subtitles.press",
+    "sounds": [
+      {
+        "name": "mysticalrealms:sound_ex_machina_air_compressor_working_air_release_long_burst_metal_clunks_mechanical_movement",
+        "stream": false
+      }
+    ]
+  },
+  "steelpress": {
+    "category": "record",
+    "subtitle": "subtitles.steelpress",
+    "sounds": [
+      {
+        "name": "mysticalrealms:he",
+        "stream": true
+      }
+    ]
+  },
+  "ak47": {
+    "category": "player",
+    "subtitle": "subtitles.ak47",
+    "sounds": [
+      {
+        "name": "mysticalrealms:ak47machinegunburs_pe401604",
+        "stream": false
+      }
+    ]
+  },
+  "ak-47": {
+    "category": "hostile",
+    "subtitle": "subtitles.ak-47",
+    "sounds": [
+      {
+        "name": "mysticalrealms:ak47machinegunburs_pe401604_1_2",
+        "stream": false
+      }
+    ]
+  },
+  "reload": {
+    "category": "master",
+    "subtitle": "subtitles.reload",
+    "sounds": [
+      {
+        "name": "mysticalrealms:zapsplat_warfare_gun_mechanism_clicks_005_61621",
+        "stream": false
+      }
+    ]
+  }
+}

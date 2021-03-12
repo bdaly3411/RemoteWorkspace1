@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mysticalrealms:block/fan"
+    },
+    "facing=east": {
+      "model": "mysticalrealms:block/fan",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mysticalrealms:block/fan",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mysticalrealms:block/fan",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "mysticalrealms:block/fan",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "mysticalrealms:block/fan",
+      "x": 90
+    }
+  }
+}

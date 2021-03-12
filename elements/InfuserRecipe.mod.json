@@ -1,0 +1,46 @@
+{
+  "_fv": 15,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:IronGear"
+      },
+      {
+        "value": "Blocks.FURNACE"
+      },
+      {
+        "value": "CUSTOM:IronGear"
+      },
+      {
+        "value": "Items.LAVA_BUCKET"
+      },
+      {
+        "value": "CUSTOM:SimpleMachineCasing"
+      },
+      {
+        "value": "Items.WATER_BUCKET"
+      },
+      {
+        "value": "CUSTOM:IronGear"
+      },
+      {
+        "value": "Blocks.FURNACE"
+      },
+      {
+        "value": "CUSTOM:IronGear"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Infuser"
+    },
+    "name": "infuser_recipe",
+    "namespace": "mod"
+  }
+}

@@ -16,7 +16,6 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.biome.Biome;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.tags.Tag;
 import net.minecraft.network.PacketBuffer;
@@ -42,11 +41,19 @@ public class MysticalrealmsModElements {
 	public final List<ModElement> elements = new ArrayList<>();
 	public final List<Supplier<Block>> blocks = new ArrayList<>();
 	public final List<Supplier<Item>> items = new ArrayList<>();
-	public final List<Supplier<Biome>> biomes = new ArrayList<>();
 	public final List<Supplier<EntityType<?>>> entities = new ArrayList<>();
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public MysticalrealmsModElements() {
+		sounds.put(new ResourceLocation("mysticalrealms", "press"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("mysticalrealms", "press")));
+		sounds.put(new ResourceLocation("mysticalrealms", "steelpress"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("mysticalrealms", "steelpress")));
+		sounds.put(new ResourceLocation("mysticalrealms", "ak47"), new net.minecraft.util.SoundEvent(new ResourceLocation("mysticalrealms", "ak47")));
+		sounds.put(new ResourceLocation("mysticalrealms", "ak-47"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("mysticalrealms", "ak-47")));
+		sounds.put(new ResourceLocation("mysticalrealms", "reload"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("mysticalrealms", "reload")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("mysticalrealms").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
@@ -85,10 +92,6 @@ public class MysticalrealmsModElements {
 
 	public List<Supplier<Item>> getItems() {
 		return items;
-	}
-
-	public List<Supplier<Biome>> getBiomes() {
-		return biomes;
 	}
 
 	public List<Supplier<EntityType<?>>> getEntities() {

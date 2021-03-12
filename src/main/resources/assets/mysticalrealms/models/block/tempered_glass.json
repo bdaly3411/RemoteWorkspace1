@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mysticalrealms:blocks/clearer_glass",
+    "up": "mysticalrealms:blocks/clearer_glass",
+    "north": "mysticalrealms:blocks/clearer_glass",
+    "east": "mysticalrealms:blocks/clearer_glass",
+    "south": "mysticalrealms:blocks/clearer_glass",
+    "west": "mysticalrealms:blocks/clearer_glass",
+    "particle": "mysticalrealms:blocks/clearer_glass"
+  }
+}

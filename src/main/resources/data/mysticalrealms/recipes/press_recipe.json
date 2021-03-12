@@ -1,0 +1,42 @@
+{
+  "group": "mysticalrealms",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mysticalrealms:tungsten_gear"
+    },
+    "1": {
+      "item": "minecraft:iron_block"
+    },
+    "2": {
+      "item": "mysticalrealms:tungsten_gear"
+    },
+    "3": {
+      "item": "mysticalrealms:steel_ingot"
+    },
+    "4": {
+      "item": "mysticalrealms:processing_unit"
+    },
+    "5": {
+      "item": "mysticalrealms:steel_ingot"
+    },
+    "6": {
+      "item": "mysticalrealms:tungsten_gear"
+    },
+    "7": {
+      "item": "minecraft:iron_block"
+    },
+    "8": {
+      "item": "mysticalrealms:tungsten_gear"
+    }
+  },
+  "result": {
+    "item": "mysticalrealms:press",
+    "count": 1
+  }
+}

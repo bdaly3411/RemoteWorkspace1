@@ -1,0 +1,111 @@
+{
+  "_fv": 15,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 145,
+          "y": 70
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 184,
+          "y": 70
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #3",
+          "x": 267,
+          "y": 70
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Fuse",
+          "onClick": {
+            "name": "UpgradeStationFuse"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Fuse",
+          "x": 249,
+          "y": 97
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Upgrade Station",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "name": "Upgrade Station",
+          "x": 194,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "upgradetableiconhammer.png",
+          "use1Xscale": false,
+          "name": "upgradetableiconhammer.png",
+          "x": 129,
+          "y": 40
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "upgradetableiconinto.png",
+          "use1Xscale": false,
+          "name": "upgradetableiconinto.png",
+          "x": 222,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "upgradetableiconplus.png",
+          "use1Xscale": false,
+          "name": "upgradetableiconplus.png",
+          "x": 167,
+          "y": 72
+        }
+      }
+    ]
+  }
+}

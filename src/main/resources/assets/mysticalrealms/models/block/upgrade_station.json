@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mysticalrealms:blocks/crafting_bench",
+    "up": "mysticalrealms:blocks/crafting_bench",
+    "north": "mysticalrealms:blocks/crafting_bench",
+    "east": "mysticalrealms:blocks/crafting_bench",
+    "south": "mysticalrealms:blocks/crafting_bench",
+    "west": "mysticalrealms:blocks/crafting_bench",
+    "particle": "mysticalrealms:blocks/crafting_bench"
+  }
+}

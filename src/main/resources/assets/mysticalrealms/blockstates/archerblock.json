@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mysticalrealms:block/archerblock"
+    },
+    "facing=east": {
+      "model": "mysticalrealms:block/archerblock",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mysticalrealms:block/archerblock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mysticalrealms:block/archerblock",
+      "y": 270
+    }
+  }
+}

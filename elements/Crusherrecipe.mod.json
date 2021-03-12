@@ -1,0 +1,46 @@
+{
+  "_fv": 15,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ProcessingUnit"
+      },
+      {
+        "value": "CUSTOM:SteelPlate"
+      },
+      {
+        "value": "CUSTOM:BlackDiamondGem"
+      },
+      {
+        "value": "CUSTOM:SteelPlate"
+      },
+      {
+        "value": "CUSTOM:Refiner"
+      },
+      {
+        "value": "CUSTOM:SteelPlate"
+      },
+      {
+        "value": "CUSTOM:RubyGem"
+      },
+      {
+        "value": "CUSTOM:SteelPlate"
+      },
+      {
+        "value": "CUSTOM:ProcessingUnit"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Crusher"
+    },
+    "name": "crusherrecipe",
+    "namespace": "mod"
+  }
+}

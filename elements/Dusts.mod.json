@@ -1,0 +1,25 @@
+{
+  "_fv": 15,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:ZincDust"
+      },
+      {
+        "value": "CUSTOM:TungstenDust"
+      },
+      {
+        "value": "CUSTOM:IronDust"
+      },
+      {
+        "value": "CUSTOM:SteelDust"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "name": "dusts",
+    "namespace": "forge"
+  }
+}

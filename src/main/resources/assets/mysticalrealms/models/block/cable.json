@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mysticalrealms:blocks/blackdiamond_ore_block",
+    "up": "mysticalrealms:blocks/blackdiamond_ore_block",
+    "north": "mysticalrealms:blocks/blackdiamond_ore_block",
+    "east": "mysticalrealms:blocks/blackdiamond_ore_block",
+    "south": "mysticalrealms:blocks/blackdiamond_ore_block",
+    "west": "mysticalrealms:blocks/blackdiamond_ore_block",
+    "particle": "mysticalrealms:blocks/blackdiamond_ore_block"
+  }
+}

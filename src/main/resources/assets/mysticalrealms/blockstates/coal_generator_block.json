@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mysticalrealms:block/coal_generator_block"
+    }
+  }
+}

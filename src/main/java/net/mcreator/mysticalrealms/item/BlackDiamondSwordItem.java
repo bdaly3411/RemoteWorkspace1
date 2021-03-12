@@ -31,7 +31,7 @@ public class BlackDiamondSwordItem extends MysticalrealmsModElements.ModElement 
 			}
 
 			public float getAttackDamage() {
-				return 0f;
+				return 13f;
 			}
 
 			public int getHarvestLevel() {
@@ -45,7 +45,7 @@ public class BlackDiamondSwordItem extends MysticalrealmsModElements.ModElement 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -1f, new Item.Properties().group(ItemGroup.COMBAT)) {
 		}.setRegistryName("black_diamond_sword"));
 	}
 }

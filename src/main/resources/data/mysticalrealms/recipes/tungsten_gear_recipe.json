@@ -1,0 +1,30 @@
+{
+  "group": "mysticalrealms",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "mysticalrealms:tungsten_ingot"
+    },
+    "3": {
+      "item": "mysticalrealms:tungsten_ingot"
+    },
+    "4": {
+      "item": "mysticalrealms:stone_gear"
+    },
+    "5": {
+      "item": "mysticalrealms:tungsten_ingot"
+    },
+    "7": {
+      "item": "mysticalrealms:tungsten_ingot"
+    }
+  },
+  "result": {
+    "item": "mysticalrealms:tungsten_gear",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "mysticalrealms:zinc_dust",
+    "mysticalrealms:tungsten_dust",
+    "mysticalrealms:iron_dust",
+    "mysticalrealms:steel_dust"
+  ]
+}
