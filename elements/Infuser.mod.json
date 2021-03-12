@@ -33,7 +33,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:MysticalRealms"
+      "value": "CUSTOM:Machines"
     },
     "destroyTool": "Not specified",
     "customDrop": {

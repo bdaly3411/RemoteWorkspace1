@@ -8,7 +8,7 @@
     "name": "Rocket",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:Guns"
     },
     "stackSize": 64,
     "enchantability": 0,

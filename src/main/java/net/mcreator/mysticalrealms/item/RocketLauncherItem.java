@@ -21,7 +21,6 @@ import net.minecraft.network.IPacket;
 import net.minecraft.item.UseAction;
 import net.minecraft.item.ShootableItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.projectile.AbstractArrowEntity;
 import net.minecraft.entity.player.ServerPlayerEntity;
@@ -37,6 +36,7 @@ import net.minecraft.client.Minecraft;
 import net.mcreator.mysticalrealms.procedures.RocketLauncherRangedItemUsedProcedure;
 import net.mcreator.mysticalrealms.procedures.RocketLauncherCanUseRangedItemProcedure;
 import net.mcreator.mysticalrealms.procedures.RocketLauncherBulletHitsBlockProcedure;
+import net.mcreator.mysticalrealms.itemgroup.GunsItemGroup;
 import net.mcreator.mysticalrealms.MysticalrealmsModElements;
 
 import java.util.Random;
@@ -71,7 +71,7 @@ public class RocketLauncherItem extends MysticalrealmsModElements.ModElement {
 	}
 	public static class ItemRanged extends Item {
 		public ItemRanged() {
-			super(new Item.Properties().group(ItemGroup.COMBAT).maxDamage(500));
+			super(new Item.Properties().group(GunsItemGroup.tab).maxDamage(500));
 			setRegistryName("rocket_launcher");
 		}
 

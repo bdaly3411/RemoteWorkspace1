@@ -1,0 +1,11 @@
+{
+  "_fv": 15,
+  "_type": "tab",
+  "definition": {
+    "name": "Guns",
+    "icon": {
+      "value": "CUSTOM:Ak47"
+    },
+    "showSearch": true
+  }
+}

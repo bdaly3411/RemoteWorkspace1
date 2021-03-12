@@ -2570,23 +2570,6 @@
       }
     },
     {
-      "name": "AmmoReload",
-      "type": "keybind",
-      "sortid": 214,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ammo_reload",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "Ammooverlay",
       "type": "procedure",
       "sortid": 215,
@@ -2817,6 +2800,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "mjolnirn"
+    },
+    {
+      "name": "Ammoreloadthing",
+      "type": "keybind",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ammoreloadthing"
+    },
+    {
+      "name": "Guns",
+      "type": "tab",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "guns"
+    },
+    {
+      "name": "Hamamer",
+      "type": "enchantment",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hamamer"
     }
   ],
   "variable_elements": [],
@@ -2865,8 +2875,8 @@
   "language_map": {
     "en_us": {
       "item.mysticalrealms.ruby_axe": "Ruby Axe",
-      "item.mysticalrealms.tungsten_plate": "Tungsten Plate",
       "item.mysticalrealms.steel_plate": "Steel Plate",
+      "item.mysticalrealms.tungsten_plate": "Tungsten Plate",
       "item.mysticalrealms.black_diamond_armor_boots": "BlackDiamond Boots",
       "block.mysticalrealms.cherry_fence": "Cherry Fence",
       "item.mysticalrealms.sapphire_pickaxe": "Sapphire Pickaxe",
@@ -2874,6 +2884,7 @@
       "item.mysticalrealms.diamond_gear": "Diamond Gear",
       "item.mysticalrealms.tungsten_gear": "Tungsten Gear",
       "item.mysticalrealms.sapphire_armor_boots": "Sapphire Boots",
+      "key.mcreator.ammoreloadthing": "Ammoreload",
       "block.mysticalrealms.uru_block": "Uru Block",
       "block.mysticalrealms.cherry_leaves": "Cherry Leaves",
       "item.mysticalrealms.gold_gear": "Gold Gear",
@@ -2895,13 +2906,13 @@
       "item.mysticalrealms.cannon_tower": "Cannon Tower Spawn Egg",
       "item.mysticalrealms.wafer": "Wafer",
       "block.mysticalrealms.cherry_stairs": "Cherry Stairs",
-      "key.mcreator.ammo_reload": "Ammo Reload",
       "item.mysticalrealms.tungsten_dust": "Tungsten Dust",
       "item.mysticalrealms.mjolnirn": "Mj÷lnir",
       "item.mysticalrealms.black_diamond_sword": "BlackDiamond Sword",
       "block.mysticalrealms.topaztools_ore_block": "Block of Topaztools",
       "item.mysticalrealms.ruby_shovel": "Ruby Shovel",
       "item.mysticalrealms.black_diamond_pickaxe": "BlackDiamond Pickaxe",
+      "itemGroup.tabguns": "Guns",
       "item.mysticalrealms.ruby_gem": "Ruby",
       "item.mysticalrealms.mm_9bullet": "9mm Bullet",
       "item.mysticalrealms.opal_armor_helmet": "Opal Helmet",
@@ -2963,6 +2974,7 @@
       "item.mysticalrealms.topaztools_shovel": "Topaztools Shovel",
       "block.mysticalrealms.cherry_log": "Cherry Log",
       "item.mysticalrealms.steel_roc": "Steel Roc",
+      "enchantment.mysticalrealms.hamamer": "Hammer",
       "item.mysticalrealms.insulation": "Insulation",
       "item.mysticalrealms.aluminium_ingot": "Aluminium Ingot",
       "item.mysticalrealms.sapphire_hoe": "Sapphire Hoe",

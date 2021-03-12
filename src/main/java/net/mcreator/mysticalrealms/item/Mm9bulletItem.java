@@ -5,10 +5,10 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.mysticalrealms.itemgroup.GunsItemGroup;
 import net.mcreator.mysticalrealms.MysticalrealmsModElements;
 
 @MysticalrealmsModElements.ModElement.Tag
@@ -25,7 +25,7 @@ public class Mm9bulletItem extends MysticalrealmsModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(GunsItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("mm_9bullet");
 		}
 

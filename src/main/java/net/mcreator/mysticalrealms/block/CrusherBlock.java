@@ -49,7 +49,7 @@ import net.minecraft.block.Block;
 
 import net.mcreator.mysticalrealms.procedures.GuiCrusherBindProcedure;
 import net.mcreator.mysticalrealms.procedures.CrusherUpdateTickProcedure;
-import net.mcreator.mysticalrealms.itemgroup.MysticalRealmsItemGroup;
+import net.mcreator.mysticalrealms.itemgroup.MachinesItemGroup;
 import net.mcreator.mysticalrealms.gui.CrusherTier1GUIGui;
 import net.mcreator.mysticalrealms.MysticalrealmsModElements;
 
@@ -78,8 +78,7 @@ public class CrusherBlock extends MysticalrealmsModElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(MysticalRealmsItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(MachinesItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	private static class TileEntityRegisterHandler {
 		@SubscribeEvent

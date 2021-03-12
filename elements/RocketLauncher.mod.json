@@ -8,7 +8,7 @@
     "name": "Rocket Launcher",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:Guns"
     },
     "stackSize": 1,
     "ammoItem": {
