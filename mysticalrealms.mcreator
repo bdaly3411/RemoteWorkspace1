@@ -2553,23 +2553,6 @@
       }
     },
     {
-      "name": "Ammoreload",
-      "type": "procedure",
-      "sortid": 214,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ammoreload",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "Ammooverlay",
       "type": "procedure",
       "sortid": 215,
@@ -2829,6 +2812,15 @@
       "registry_name": "hamamer"
     },
     {
+      "name": "LocatebiomeAlight",
+      "type": "command",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "locatebiome_alight"
+    },
+    {
       "name": "LocatebiomeAlightCommandExecuted",
       "type": "procedure",
       "sortid": 252,
@@ -2841,13 +2833,30 @@
       }
     },
     {
-      "name": "LocatebiomeAlight",
-      "type": "command",
+      "name": "AmmoReload",
+      "type": "procedure",
       "sortid": 252,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "locatebiome_alight"
+      "registry_name": "ammo_reload",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Alight",
+      "type": "biome",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alight"
     }
   ],
   "variable_elements": [],
@@ -2954,7 +2963,7 @@
       "item.mysticalrealms.opal_pickaxe": "Opal Pickaxe",
       "subtitles.ak-47": "Gun Fire",
       "item.mysticalrealms.reinforced_tungsten": "Reinforced Tungsten",
-      "item.mysticalrealms.w_izard_spawn_egg": "Wizard Spawn Egg",
+      "item.mysticalrealms.w_izard_spawn_egg": "W Izard Spawn Egg",
       "item.mysticalrealms.processing_unit": "Processing Unit",
       "block.mysticalrealms.opal_ore_block": "Block of Opal",
       "item.mysticalrealms.copper_wire": "Copper Wire",
@@ -3014,7 +3023,7 @@
       "block.mysticalrealms.aluminium_ore": "Aluminium Ore",
       "block.mysticalrealms.portalframezimus": "Portalframezimus",
       "subtitles.reload": "Reloading",
-      "entity.mysticalrealms.w_izard": "Wizard",
+      "entity.mysticalrealms.w_izard": "W Izard",
       "item.mysticalrealms.iron_gear": "Iron Gear",
       "biome.mysticalrealms.gem": "Gem",
       "item.mysticalrealms.ruby_pickaxe": "Ruby Pickaxe",
