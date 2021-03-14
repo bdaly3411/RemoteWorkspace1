@@ -2827,6 +2827,27 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "hamamer"
+    },
+    {
+      "name": "LocatebiomeAlightCommandExecuted",
+      "type": "procedure",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "locatebiome_alight_command_executed",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "LocatebiomeAlight",
+      "type": "command",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "locatebiome_alight"
     }
   ],
   "variable_elements": [],
@@ -2875,8 +2896,8 @@
   "language_map": {
     "en_us": {
       "item.mysticalrealms.ruby_axe": "Ruby Axe",
-      "item.mysticalrealms.steel_plate": "Steel Plate",
       "item.mysticalrealms.tungsten_plate": "Tungsten Plate",
+      "item.mysticalrealms.steel_plate": "Steel Plate",
       "item.mysticalrealms.black_diamond_armor_boots": "BlackDiamond Boots",
       "block.mysticalrealms.cherry_fence": "Cherry Fence",
       "item.mysticalrealms.sapphire_pickaxe": "Sapphire Pickaxe",
@@ -2884,8 +2905,8 @@
       "item.mysticalrealms.diamond_gear": "Diamond Gear",
       "item.mysticalrealms.tungsten_gear": "Tungsten Gear",
       "item.mysticalrealms.sapphire_armor_boots": "Sapphire Boots",
-      "key.mcreator.ammoreloadthing": "Ammoreload",
       "block.mysticalrealms.uru_block": "Uru Block",
+      "key.mcreator.ammoreloadthing": "Ammoreload",
       "block.mysticalrealms.cherry_leaves": "Cherry Leaves",
       "item.mysticalrealms.gold_gear": "Gold Gear",
       "item.mysticalrealms.zinc_dust": "Zinc Dust",
