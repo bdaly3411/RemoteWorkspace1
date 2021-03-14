@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "mysticalrealms:block/darkworlds_portal_ew"
+    },
+    "axis=x": {
+      "model": "mysticalrealms:block/darkworlds_portal_ns"
+    }
+  }
+}

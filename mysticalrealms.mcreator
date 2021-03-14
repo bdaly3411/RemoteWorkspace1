@@ -2857,6 +2857,18 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "alight"
+    },
+    {
+      "name": "Darkworlds",
+      "type": "dimension",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darkworlds",
+      "metadata": {
+        "ep": true
+      }
     }
   ],
   "variable_elements": [],
@@ -3033,6 +3045,7 @@
       "subtitles.steelpress": "Pressing",
       "block.mysticalrealms.cherry_slab": "Cherry Slab",
       "item.mysticalrealms.zinc_plate": "Zinc Plate",
+      "item.mysticalrealms.darkworlds": "Darkworlds Portal Igniter",
       "block.mysticalrealms.black_diamond_ore_block": "Block of BlackDiamond",
       "subtitles.ak47": "Gun Fire",
       "item.mysticalrealms.topaztools_armor_helmet": "Topaztools Helmet",
