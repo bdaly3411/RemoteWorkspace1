@@ -18,7 +18,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.settings.KeyBinding;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.mysticalrealms.procedures.AmmoreloadProcedure;
+import net.mcreator.mysticalrealms.procedures.AmmoReloadProcedure;
 import net.mcreator.mysticalrealms.MysticalrealmsModElements;
 import net.mcreator.mysticalrealms.MysticalrealmsMod;
 
@@ -92,7 +92,8 @@ public class AmmoreloadthingKeyBinding extends MysticalrealmsModElements.ModElem
 		if (type == 0) {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
-				AmmoreloadProcedure.executeProcedure($_dependencies);
+				$_dependencies.put("entity", entity);
+				AmmoReloadProcedure.executeProcedure($_dependencies);
 			}
 		}
 	}

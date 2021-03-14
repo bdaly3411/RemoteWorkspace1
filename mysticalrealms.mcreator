@@ -2553,23 +2553,6 @@
       }
     },
     {
-      "name": "Ammoreload",
-      "type": "procedure",
-      "sortid": 214,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ammoreload",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "Ammooverlay",
       "type": "procedure",
       "sortid": 215,
@@ -2827,6 +2810,32 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "hamamer"
+    },
+    {
+      "name": "AmmoReload",
+      "type": "procedure",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ammo_reload",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Alight",
+      "type": "biome",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alight"
     }
   ],
   "variable_elements": [],
@@ -2875,8 +2884,8 @@
   "language_map": {
     "en_us": {
       "item.mysticalrealms.ruby_axe": "Ruby Axe",
-      "item.mysticalrealms.steel_plate": "Steel Plate",
       "item.mysticalrealms.tungsten_plate": "Tungsten Plate",
+      "item.mysticalrealms.steel_plate": "Steel Plate",
       "item.mysticalrealms.black_diamond_armor_boots": "BlackDiamond Boots",
       "block.mysticalrealms.cherry_fence": "Cherry Fence",
       "item.mysticalrealms.sapphire_pickaxe": "Sapphire Pickaxe",
@@ -2884,8 +2893,9 @@
       "item.mysticalrealms.diamond_gear": "Diamond Gear",
       "item.mysticalrealms.tungsten_gear": "Tungsten Gear",
       "item.mysticalrealms.sapphire_armor_boots": "Sapphire Boots",
-      "key.mcreator.ammoreloadthing": "Ammoreload",
       "block.mysticalrealms.uru_block": "Uru Block",
+      "key.mcreator.ammoreloadthing": "Ammoreload",
+      "biome.mysticalrealms.alight": "Alight",
       "block.mysticalrealms.cherry_leaves": "Cherry Leaves",
       "item.mysticalrealms.gold_gear": "Gold Gear",
       "item.mysticalrealms.zinc_dust": "Zinc Dust",
